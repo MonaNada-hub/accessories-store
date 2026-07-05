@@ -12,9 +12,9 @@ const heroDots = document.querySelectorAll("[data-hero-dot]");
 
 if (heroSlider && heroDots.length) {
     const heroImages = [
-        "../images/photo-1617038260897-41a1f14a8ca5.jpg",
-        "../images/photo-1617038260897-41a1f14a8ca5.jpg",
-        "../images/photo-1617038260897-41a1f14a8ca5.jpg"
+        "images/Generated image 1.png",
+        "images/lux-hero.jpg",
+        "images/photo-1601121141461-9d6647bca1ed.jpg"
     ];
 
     let currentHero = 0;
@@ -77,4 +77,3 @@ document.addEventListener('DOMContentLoaded', () => {
         if(matchBtn) matchBtn.click(); else showCategory(catFromUrl);
     }
 });
-
