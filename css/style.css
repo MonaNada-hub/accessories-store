@@ -1,4 +1,3 @@
-
 /* =========================
    GOOGLE FONT
 ========================= */
@@ -470,17 +469,6 @@ footer{
     color:var(--gold);
 }
 
-.product-card h3{
-    margin-top:20px;
-}
-
-.product-card span{
-    display:block;
-    color:var(--gold);
-    font-weight:700;
-    padding:15px 0 25px;
-}
-
 /* Responsive tweaks for products grid */
 .products-grid{
     display:grid;
@@ -894,7 +882,7 @@ footer{
 
 .home-hero{
     min-height:500px;
-    background:var(--hero-image);
+    background:var(--hero-image, var(--lux-hero-image));
     background-size:cover;
     background-position:center right;
     color:#fff;
@@ -2101,4 +2089,3 @@ footer{
         background-position:center;
     }
 }
-
