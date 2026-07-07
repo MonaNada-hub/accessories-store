@@ -65,7 +65,8 @@ function cartTotal() {
 }
 
 function formatPrice(value) {
-    return `$${value.toFixed(2)}`;
+    const num = Number(value);
+    return `$${Number.isFinite(num) ? num.toFixed(2) : '0.00'}`;
 }
 
 function renderCartBadge() {
